@@ -16,8 +16,8 @@ app.use(express.static("public")); //to save/store files or images in public fol
 app.use(cookieParser()); //to access/set cookies from/in users browser
 
 // // routes import and declaration / available routes
-import adminRouter from "./routes/admin.router.js";
-app.use("/api/v1/admins", adminRouter);
+// import adminRouter from "./routes/admin.router.js";
+// app.use("/api/v1/admins", adminRouter);
 
 // import userRouter from "./routes/user.router.js";
 // app.use("/api/v1/users", userRouter);
